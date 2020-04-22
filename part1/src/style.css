@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+body {
+    background-color: rgb(73, 71, 71);
+    color:rgba(245, 245, 245, 0.932);
+    font-family: 'Montserrat', sans-serif;
+    padding:0;
+}
+
+h1 {
+    color: rgb(226, 163, 28);
+    background-color: rgb(54, 54, 54);
+    padding: 5px 10px; 
+    width: 30%;
+    font-weight: 300;
+}
+
+.Total {
+    color: rgb(226, 163, 28);
+}
