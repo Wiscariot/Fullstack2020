@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,500;1,500&display=swap');
+
+.Countrydiv img {
+    height: 150px;
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+body {
+    background-color: rgb(185, 185, 185);
+    color: rgba(0, 0, 0, 0.596);
+    margin: 25px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.FindCountries {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    display: flex;
+    width: 50%;
+    background-color: grey;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.74);
+}
+
+.FindCountries input {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    padding-left: 3px;
+    margin-left: 6px;
+    background-color: grey;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.308);
+}
+
+.FindCountries input :focus {
+    outline:none;
+}
+
+.Country {
+    margin-top: 25px;
+    padding: 15px;
+    width: 50%;
+    height: 20%;
+    flex-grow: 4;
+    display: flex;
+    background-color: grey;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.74);
+}
+
+.Countrydiv {
+    margin-right: 35px;
+    display: inline-block; 
+    vertical-align: middle; 
+    text-align: center;
+}
+
+.Weather img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+    border: black 1px solid;
+    opacity: .7;
+}
+
+.ShowButton {
+    background-color: grey;
+}
+
+.Language {
+    padding: 15px;
+}
+
+.ListedCountry {
+    margin-top: 10px;
+    background-color: rgb(185, 185, 185);
+    
+}
+
+.ListedCountry button {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 300;
+    margin-left: 8px;
+    background-color: rgb(185, 185, 185);
+    color: black;
+    border: 2px solid black;
+    transition: all .2s linear;
+  }
+
+  .ListedCountry button:hover {
+      opacity: .5;
+      color: red;
+      border-color: red;
+  }
+
+  .Logo {
+      width: 50px;
+      margin-right: 15px;
+  }
+
+  @media (max-width: 1280px) {
+    .Country {
+        flex-direction: column;
+    }    
+  }
